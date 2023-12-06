@@ -1,0 +1,72 @@
+/* src/App.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #3498db;
+    padding: 15px 0;
+    color: #fff;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .todo-container {
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 8px;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #27ae60;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 8px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color: #c0392b;
+  }
+  

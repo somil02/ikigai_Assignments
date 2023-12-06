@@ -1,0 +1,66 @@
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+/* Global styling */
+a {
+  text-decoration: none;
+}
+
+/* Container styles */
+.Container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation styles */
+.Navigation {
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px;
+}
+
+.NavigationList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.NavigationItem {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.NavLink {
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.NavLink:hover {
+  color: #ffcc00;
+}
+
+/* Content styles */
+.Content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .NavigationItem {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
